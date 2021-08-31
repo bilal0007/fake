@@ -1,0 +1,144 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  .navbar{
+    background-color: rgba(45, 118, 185);
+    
+  }
+  
+  header{
+    
+      
+      padding-bottom: 0%;
+      color:#fff;
+     
+  }
+   nav >.container{
+      margin-top: 0px;
+     
+  }
+  
+  #dot{
+    display:inline-block;
+    color: rgb(224, 146, 146);
+    margin-left: -15px; 
+    margin-top: 2px;
+  
+} 
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder
+}
+.navbar-brand h1{
+    padding: right 0%; 
+   
+}
+
+.navbar-dark .navbar-nav .nav-item a{
+    color: rgb(204, 204, 204);
+}  
+
+.portfolio h2{
+    color: rgba(45, 118, 185);
+    }
+    
+body{
+    background-color:white;
+}
+
+.container > .row{
+    justify-content: right;
+}
+.card {
+ 
+    
+    background-color: rgba(226, 226, 226, 0.2);
+    /* position: relative; */
+    /* width: 400px; */
+    height: 400px;
+    }
+
+
+
+
+/* .iamaga{
+ width: 100%; 
+} */
+
+
+.bahar{
+    position: absolute;
+top: 20%;
+
+
+left: 40%;
+}
+
+.card:hover{
+    box-shadow: 0 0px 20px 0 rgba(0, 111, 185, 0.5);
+}
+.bahar{
+    opacity: 0;
+}
+.card:hover .bahar{
+   opacity: 1;
+  
+}
+
+ 
+ .card:hover .iamaga{
+     opacity: 0.5;
+ }
+
+
+
+ footer{
+    background-color:rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+ margin-top: 20px;
+  
+}
+
+
+.fleft{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+   
+    list-style: none;
+    margin-right: 0px;
+   
+}
+.fleft li a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    
+    }
+
+    .fleft li{
+        width: 150px;
+        /* border: 2px solid purple; */
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+        
+    }
+
+    .fnavbar{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    
+
+    }
+
+    .fleft li:hover{
+        text-decoration:underline;
+    }

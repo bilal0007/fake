@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  }
+  .navbar{
+    background-color: rgba(45, 118, 185);
+    
+  }
+  
+  header{
+    
+      
+      padding-bottom: 0%;
+      color:#fff;
+     
+  }
+   nav >.container{
+      margin-top: 0px;
+     
+  }
+  
+  #dot{
+    display:inline-block;
+    color: rgb(224, 146, 146);
+    margin-left: -15px; 
+    margin-top: 2px;
+  
+} 
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: bolder
+}
+.navbar-brand h1{
+    padding: right 0%; 
+   
+}
+
+.navbar-dark .navbar-nav .nav-item a{
+    color: rgb(204, 204, 204);
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-body {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0px 20px 0 rgba(7, 28, 36, 0.2);
+    background-color: rgba(45, 118, 185);
+    transition: 0.3s;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .im{
+  
+  width: 100px;
+  }
+  .card{
+    justify-content: center;
+  }
+  
+  .imag{
+   
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  padding: 10px 0px;
+   width: 80px;
+  } 
+  
+  
+  .skill{
+    color: #fff;
+  }
+  .textt{
+    color: #0a9fe4;
+    align-content: center;
+  }
+
+
+
+
+  footer{
+    background-color:rgb(238, 238, 238);
+    color: rgb(0, 0, 0);
+ margin-top: 20px;
+  
+}
+
+
+.fleft{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+   
+    list-style: none;
+    margin-right: 0px;
+   
+}
+.fleft li a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    }
+
+    .fleft li{
+        width: 150px;
+        /* border: 2px solid purple; */
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+        
+    }
+
+    .fnavbar{
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+    
+
+    }
+
+    .fleft li:hover{
+        text-decoration:underline;
+    }
